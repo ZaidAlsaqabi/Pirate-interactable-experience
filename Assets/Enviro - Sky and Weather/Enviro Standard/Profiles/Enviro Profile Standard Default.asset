@@ -1617,7 +1617,7 @@ MonoBehaviour:
     heightFog: 1
     height: 50
     heightFogIntensity: 1
-    heightDensity: 0.1
+    heightDensity: 0
     noiseIntensity: 1
     noiseIntensityOffset: 0
     noiseScale: 0.0032
@@ -1655,7 +1655,7 @@ MonoBehaviour:
       m_ColorSpace: -1
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
-    skyFogIntensity: 1
+    skyFogIntensity: 0.09
     fogExposure: 1
     useEnviroGroundFog: 0
     useHDRPFog: 1
@@ -2018,7 +2018,7 @@ MonoBehaviour:
     auroraSpeed: 0.005
   viewMode: 0
   viewModeLW: 1
-  showPlayerSetup: 0
+  showPlayerSetup: 1
   showRenderingSetup: 0
   showComponentsSetup: 0
   showTimeUI: 0
