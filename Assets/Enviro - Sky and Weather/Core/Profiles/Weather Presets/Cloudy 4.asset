@@ -20,7 +20,7 @@ MonoBehaviour:
   possibiltyInSummer: 50
   Autumn: 1
   possibiltyInAutumn: 50
-  winter: 1
+  winter: 0
   possibiltyInWinter: 50
   cloudsConfig:
     ambientSkyColorIntensity: 0.9

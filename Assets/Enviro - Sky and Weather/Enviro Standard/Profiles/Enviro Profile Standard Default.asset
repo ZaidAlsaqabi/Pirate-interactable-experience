@@ -1131,13 +1131,13 @@ MonoBehaviour:
   cloudsSettings:
     cloudsQualitySettings:
       bottomCloudHeight: 4000
-      topCloudHeight: 10000
-      raymarchSteps: 150
+      topCloudHeight: 12000
+      raymarchSteps: 170
       stepsInDepthModificator: 0.7
       transmissionToExit: 0.15
       cloudsRenderResolution: 1
-      reprojectionPixelSize: 2
-      lodDistance: 0.25
+      reprojectionPixelSize: 1
+      lodDistance: 0.6
       baseNoiseUV: 15
       detailNoiseUV: 45
       useCurlNoise: 0
@@ -1922,8 +1922,8 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 0
-    WinterStart: 277
-    WinterEnd: 59
+    WinterStart: 0
+    WinterEnd: 0
     winterBaseTemperature:
       serializedVersion: 2
       m_Curve:
@@ -2016,13 +2016,13 @@ MonoBehaviour:
     auroraLayer2Settings: {x: 5, y: 5, z: 0, w: 0.5}
     auroraColorshiftSettings: {x: 0.05, y: 0.05, z: 0, w: 5}
     auroraSpeed: 0.005
-  viewMode: 0
+  viewMode: 13
   viewModeLW: 1
   showPlayerSetup: 1
   showRenderingSetup: 0
   showComponentsSetup: 0
-  showTimeUI: 0
+  showTimeUI: 1
   showWeatherUI: 1
-  showAudioUI: 0
-  showEffectsUI: 0
+  showAudioUI: 1
+  showEffectsUI: 1
   modified: 0

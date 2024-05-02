@@ -20,7 +20,7 @@ MonoBehaviour:
   possibiltyInSummer: 50
   Autumn: 0
   possibiltyInAutumn: 50
-  winter: 1
+  winter: 0
   possibiltyInWinter: 50
   cloudsConfig:
     ambientSkyColorIntensity: 0.8
@@ -55,8 +55,6 @@ MonoBehaviour:
   fogStartDistance: 0
   fogDistance: 1000
   fogDensity: 0.002
-  fogAttenuationDistance: 251
-  fogRelativeFogHeight: 792
   weatherSkyMod:
     serializedVersion: 2
     key0: {r: 0, g: 0, b: 0, a: 0}
@@ -84,6 +82,7 @@ MonoBehaviour:
     atime6: 0
     atime7: 0
     m_Mode: 0
+    m_ColorSpace: -1
     m_NumColorKeys: 4
     m_NumAlphaKeys: 4
   weatherLightMod:
@@ -113,6 +112,7 @@ MonoBehaviour:
     atime6: 0
     atime7: 0
     m_Mode: 0
+    m_ColorSpace: -1
     m_NumColorKeys: 4
     m_NumAlphaKeys: 4
   weatherFogMod:
@@ -142,6 +142,7 @@ MonoBehaviour:
     atime6: 0
     atime7: 0
     m_Mode: 0
+    m_ColorSpace: -1
     m_NumColorKeys: 4
     m_NumAlphaKeys: 4
   volumeLightIntensity: 0.75
