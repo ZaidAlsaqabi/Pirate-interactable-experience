@@ -27,7 +27,7 @@ public class autodoor : MonoBehaviour
             doorAnim.SetTrigger("close");
             if (closeSound != null)
             {
-                doorAnim.SetTrigger("close");
+                closeSound.Play();
             }
         }
     }
