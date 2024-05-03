@@ -10,7 +10,7 @@ public class LookAt : MonoBehaviour
     {
         if (Player != null)
         {
-            // Rotate this object to look at the target
+           
             transform.LookAt(Player);
         }
     }
