@@ -7,6 +7,9 @@ TagManager:
   - CinemachineTarget
   - Ladder
   - Water
+  - Key
+  - AudioSource
+  - SoundTrigger
   layers:
   - Default
   - TransparentFX
